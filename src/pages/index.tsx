@@ -14,7 +14,7 @@ const Header = (props: Props) => {
 }
 
 const HomePage = () => {
-  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  const names = ['Phil Deisinger', 'PDice30', 'Philly D'];
 
   return (
     <>
@@ -22,7 +22,7 @@ const HomePage = () => {
       <title>Home Page</title>
     </Head>
       <div>
-      <Header title="Develop. Preview. Ship. 🚀" />
+      <Header title="Phil Deisinger" />
       <ul>
         {names.map((name) => (
           <li key={name}>{name}</li>
